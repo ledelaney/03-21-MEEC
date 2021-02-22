@@ -101,7 +101,7 @@ within classes: often taught as a series of facts or examples, devoid of connect
 
 --
 
-🤯
+`r emo::ji("bulb")`
 Formal instruction is not always leading to robust conceptual understanding
 
 `r htmltools::withTags(br())`
@@ -120,42 +120,53 @@ why do these things matter?
 well...
 
 ---
-class: middle, center
+class: middle, center, bg_gorg
 
 --
 
-M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K
+.mezzo-forte-font[
+M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
 
 .footnote[
 Sticky ideas book, 2012]
 
 ---
-class: middle, center
+class: middle, center, bg_gorg
+
+.footnote[
+Sticky ideas book, 2012]
 
 --
 
-M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K
+.mezzo-forte-font[
+M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
 
 .footnote[
 Sticky ideas book, 2012]
 
 ---
-class: middle, center
+class: middle, center, bg_gorg
+
+.footnote[
+Sticky ideas book, 2012]
 
 --
-
-MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK
+.mezzo-forte-font[
+MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
 
 .footnote[
 Sticky ideas book, 2012]
 
 ---
-class: middle, center
+class: middle, center, bg_gorg
 
+.footnote[
+Sticky ideas book, 2012]
 
 --
 
-MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK
+.mezzo-forte-font[
+MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
 
 .footnote[
 Sticky ideas book, 2012]
@@ -164,7 +175,7 @@ Sticky ideas book, 2012]
 
 .pull-bottom[
 .large-font[
-.pink[Remembering concepts is far easier than remembering raw data!]]]
+.blue[Remembering concepts is far easier than remembering raw data!]]]
 
 .footnote[
 Sticky ideas book, 2012]
@@ -174,13 +185,15 @@ spend 10-15 seconds studying, try to memorize as many as possible..
 ok now try...
 
 ---
-class: middle
+class: middle, center, bg_sakcherry
 
 ## Evolutionary theory is the concept behind the raw data
 
 --
 
 Here, some points about how evolutionary theory is the _why_
+
+Can you bring in Mayr and how biology has levels of explanation at this point?
 
 ???
 Its the framework and narrative for the entire discipline.
@@ -242,7 +255,7 @@ given these two final stages, i set out to answer some questions
 class: middle, left, bg_peacock
 
 --
- `r emo::ji("yarn")` How do students construct biological explanations about complex phenomena across levels of instruction?  
+ `r emo::ji("yarn")` How do students construct biological explanations about complex phenomena   
 
 
 --
@@ -253,7 +266,7 @@ class: middle, left, bg_peacock
 chose natural selection and adaptation as a pattern/process based concept that students are generally familiar with: also, very powerful aspect of understanding evolution generally as evidenced by darwin coming up with his theory without understanding mechanisms of inheritance, pop gen, etc.
 
 ---
-class: middle
+class: middle, bg_butterfly
 
 ## Study design
 
@@ -434,7 +447,7 @@ and what we were looking for in the students' responses is the FORMAL cause -- t
 coded responses based on what level of explanation the student addressed in response (sometimes more than one)
 
 ---
-class: middle, left, bg_ideal
+class: middle, left, bg_rouss
 
 ## What happened?
 
@@ -448,40 +461,130 @@ Often pairing proximate processes with ultimate patterns
 Talk about how research shows that we spend way too much time on proximate in classes, so this makes perfect sense.. and then in evolution classes we spend way too much time using EXAMPLES highlighting ultimate pattern
 
 ---
-class: middle, left, bg_reality
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+## How are students constructing explanations?
+
 
 ???
-but, this is what we actually see....
+Tend to use a familiar schema to reason about answers
+explain schemas
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of analogy to humans (anthropocentric):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+--
+
+`r htmltools::withTags(br())`
+
+_There are so many different species of flowering plants because flowers are found all over the world just like humans, and they look different just like humans do._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of analogy to humans (anthropocentric):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+_Cave fish lose their eyesight because if you don't use something the body will not maintain it, like if you stop exercising you lose your muscles._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of justifying the outcome (teleological):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+--
+
+`r htmltools::withTags(br())`
+
+_There are so many different species on earth because if there were only one it would go extinct._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of justifying the outcome (teleological):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+_Penguins changed their wings to be flippers so that they could survive in their environment._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 
 ---
 class: top, left, bg_2birds
 
-## Preliminary Takeaways
+## Using schemas to our advantage
+
+---
+class: top, left, bg_fish
+
+## Toward better biology education
 
 --
 
-↪️
-Most common explanations invoke Final and/or Efficient causality (i.e., ultimate pattern or proximate process) and shift regularly around these between pre-post
-<br>
+.pull-left-narrow[
+.large-font[
+`r emo::ji("framed_picture")`]]
 
-↪️
-Formal instruction is not nudging students toward Formal causality
-<br>
+.pull-right-wide[
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+Always bring facts and examples back to the bigger picture]
 
-↪️
-Students invoking Formal causality in both assignments are more likely to have more biology credits <br> (_p-value_ = 0.06)
-<br>
-<br>
-<br>
+???
+ and help students form connections
 
 --
-## Questions
 
-1. How best to display this data?
+.pull-left-narrow[
+.large-font[
+`r emo::ji("floppy_disk")`]]
 
-2. Best methods for analyzing categorical data of this kind?
+.pull-right-wide[
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+Deal in concepts not in raw data]
 
-3. Any general feedback!
+--
+.pull-left-narrow[
+.large-font[
+🤯]]
+
+.pull-right-wide[
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+Use existing schemas to engage and challenge student thinking]
 
 --
 .bottom[

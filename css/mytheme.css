@@ -18,6 +18,7 @@
 .large-font {
  font-size: 45px;
  line-height: normal;
+
 }
 
 /*-- Spacing --*/
@@ -411,81 +412,96 @@ https://cdn.hipwallpaper.com/m/17/4/6ox83n.jpg*/
       z-index: -1;
 }
 
-
-.bg_ideal_v2 {
+.bg_chaet {
   position: relative;
   z-index: 1;
 }
 
-.bg_ideal_v2::before {    
+.bg_chaet::before {    
       content: "";
-      background-image: url('images/figs/pre-post-causes-ideal_v2.png');
-      background-size: 55%;
+      background-image: url('images/bg/chaetodon.jpg');
+      background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
-      top: 60px;
+      top: 300px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 1;
+      opacity: 0.3;
       z-index: -1;
 }
 
-.bg_reality_v2 {
+.bg_rouss {
   position: relative;
   z-index: 1;
 }
 
-.bg_reality_v2::before {    
+.bg_rouss::before {    
       content: "";
-      background-image: url('images/figs/ideal-and-real-fig.png');
-      background-size: 100%;
-      background-repeat: no-repeat;
+      background-image: url('images/bg/forest-rousseau.jpg');
+      background-size: cover;
       position: absolute;
-      top: 50px;
+      top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 1;
+      opacity: 0.2;
       z-index: -1;
 }
 
-
-.bg_ideal {
+.bg_gorg {
   position: relative;
   z-index: 1;
 }
 
-.bg_ideal::before {    
+.bg_gorg::before {    
       content: "";
-      background-image: url('images/figs/pre-post-causes-ideal.png');
-      background-size: 90%;
+      background-image: url('images/bg/gorgonia.jpg');
+      background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
-      top: 60px;
+      top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 1;
+      opacity: 0.3;
       z-index: -1;
 }
 
-.bg_reality {
+.bg_butterfly {
   position: relative;
   z-index: 1;
 }
 
-.bg_reality::before {    
+.bg_butterfly::before {    
       content: "";
-      background-image: url('images/figs/pre-post-causes-bylevelv3.png');
-      background-size: 100%;
+      background-image: url('images/bg/laertes-butterfly.jpg');
+      background-size: contain;
       background-repeat: no-repeat;
       position: absolute;
-      top: 25px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 200px;
+      opacity: 0.4;
+      z-index: -1;
+}
+
+.bg_sakcherry {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_sakcherry::before {    
+      content: "";
+      background-image: url('images/bg/sakura-cherry.jpg');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 1;
+      opacity: 0.5;
       z-index: -1;
 }
 
