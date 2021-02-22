@@ -87,10 +87,10 @@ Momsen _et al._, 2010]
 
 --
 
-🥱
+`r htmltools::HTML('<i class="far fa-tired"></i>')`
+`r htmltools::HTML("&nbsp;")`
 Biology is `r htmltools::HTML("&ldquo;")`just memorization!`r htmltools::HTML("&rdquo;")`
 
-`r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 
 .footnote[
@@ -101,7 +101,8 @@ within classes: often taught as a series of facts or examples, devoid of connect
 
 --
 
-`r emo::ji("bulb")`
+`r htmltools::HTML('<i class="far fa-grin-stars"></i>')`
+`r htmltools::HTML("&nbsp;")`
 Formal instruction is not always leading to robust conceptual understanding
 
 `r htmltools::withTags(br())`
@@ -128,13 +129,13 @@ class: middle, center, bg_gorg
 M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 ---
 class: middle, center, bg_gorg
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 --
 
@@ -142,26 +143,26 @@ Sticky ideas book, 2012]
 M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 ---
 class: middle, center, bg_gorg
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 --
 .mezzo-forte-font[
 MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 ---
 class: middle, center, bg_gorg
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 --
 
@@ -169,7 +170,7 @@ Sticky ideas book, 2012]
 MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
 --
 
@@ -178,7 +179,8 @@ Sticky ideas book, 2012]
 .blue[Remembering concepts is far easier than remembering raw data!]]]
 
 .footnote[
-Sticky ideas book, 2012]
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
 ???
 spend 10-15 seconds studying, try to memorize as many as possible..
 
@@ -187,13 +189,14 @@ ok now try...
 ---
 class: middle, center, bg_sakcherry
 
+`r htmltools::withTags(br())`
+
 ## Evolutionary theory is the concept behind the raw data
 
 --
 
-Here, some points about how evolutionary theory is the _why_
-
-Can you bring in Mayr and how biology has levels of explanation at this point?
+.large-font[
+🦠 🌾 🐡 🪲 🦧]
 
 ???
 Its the framework and narrative for the entire discipline.
@@ -255,11 +258,15 @@ given these two final stages, i set out to answer some questions
 class: middle, left, bg_peacock
 
 --
- `r emo::ji("yarn")` How do students construct biological explanations about complex phenomena   
+`r htmltools::HTML('<i class="fas fa-tools"></i>')` 
+`r htmltools::HTML("&nbsp;")`
+How do students construct biological explanations about complex phenomena?  
 
 
 --
- `r emo::ji("chart_with_upwards_trend")` Does instruction improve outcomes?
+`r htmltools::HTML('<i class="fas fa-chart-line"></i>')`
+`r htmltools::HTML("&nbsp;")`
+Does instruction improve outcomes?
  
 
 ???
@@ -269,6 +276,8 @@ chose natural selection and adaptation as a pattern/process based concept that s
 class: middle, bg_butterfly
 
 ## Study design
+
+--
 
 `r emo::ji("raised_hand_with_fingers_splayed")` open-ended questions
  
@@ -290,6 +299,8 @@ coded responses based on the following framework...
 class: middle, left, bg_jelly
 
 ## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+--
 
 Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
 
@@ -484,7 +495,6 @@ class: top, left, bg_chaet
 
 --
 
-`r htmltools::withTags(br())`
 
 _There are so many different species of flowering plants because flowers are found all over the world just like humans, and they look different just like humans do._
 
@@ -500,9 +510,8 @@ class: top, left, bg_chaet
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
 
-_Cave fish lose their eyesight because if you don't use something the body will not maintain it, like if you stop exercising you lose your muscles._
+_Cave fish lose their eyesight because if you don`r htmltools::HTML("&rsquo;")`t use something the body will not maintain it, like if you stop exercising you lose your muscles._
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
@@ -536,10 +545,17 @@ class: top, left, bg_chaet
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 
-_Penguins changed their wings to be flippers so that they could survive in their environment._
+_Wood evolved because plants need it to survive in their environment._
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
+
+--
+
+.pull-right[
+.large-font[
+.pink[
+Here, schemas are working against us!]]]
 
 ---
 class: top, left, bg_2birds
@@ -547,43 +563,53 @@ class: top, left, bg_2birds
 ## Using schemas to our advantage
 
 ---
-class: top, left, bg_fish
+class: top, center, bg_gurnard
 
 ## Toward better biology education
 
 --
 
-.pull-left-narrow[
 .large-font[
-`r emo::ji("framed_picture")`]]
+`r htmltools::HTML('<i class="fas fa-map-marked-alt"></i>')`] 
 
-.pull-right-wide[
-`r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
+.left-align[
 Always bring facts and examples back to the bigger picture]
 
 ???
  and help students form connections
 
---
+---
+class: top, center, bg_gurnard
 
-.pull-left-narrow[
+## Toward better biology education
+
 .large-font[
-`r emo::ji("floppy_disk")`]]
+`r htmltools::HTML('<i class="fas fa-map-marked-alt"></i>')`
+`r htmltools::HTML("&nbsp;")`
+`r htmltools::HTML('<i class="fas fa-code"></i>')`] 
 
-.pull-right-wide[
-`r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
+.left-align[
+Always bring facts and examples back to the bigger picture
+
 Deal in concepts not in raw data]
 
---
-.pull-left-narrow[
-.large-font[
-🤯]]
+---
+class: top, center, bg_gurnard
 
-.pull-right-wide[
-`r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
+## Toward better biology education
+
+.large-font[
+`r htmltools::HTML('<i class="fas fa-map-marked-alt"></i>')`
+`r htmltools::HTML("&nbsp;")`
+`r htmltools::HTML('<i class="fas fa-code"></i>')`
+`r htmltools::HTML("&nbsp;")`
+`r htmltools::HTML('<i class="fas fa-icons"></i>')`] 
+
+.left-align[
+Always bring facts and examples back to the bigger picture
+
+Deal in concepts not in raw data
+
 Use existing schemas to engage and challenge student thinking]
 
 --

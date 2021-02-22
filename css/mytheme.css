@@ -52,6 +52,12 @@ line-height: normal;
 
 }
 
+.left-align {
+
+	margin: auto;
+	text-align: left;
+}
+
 
 .pull-left-narrow {
   float: left;
@@ -427,7 +433,7 @@ https://cdn.hipwallpaper.com/m/17/4/6ox83n.jpg*/
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.3;
+      opacity: 0.7;
       z-index: -1;
 }
 
@@ -502,6 +508,26 @@ https://cdn.hipwallpaper.com/m/17/4/6ox83n.jpg*/
       bottom: 0px;
       left: 0px;
       opacity: 0.5;
+      z-index: -1;
+}
+
+.bg_gurnard {
+  position: relative;
+  z-index: 1;
+  background-color: #F9F9F7;
+}
+
+.bg_gurnard::before {    
+      content: "";
+      background-image: url('images/bg/gurnard.jpg');
+      background-size: cover;
+      background-color: #F9F9F7;
+      position: absolute;
+      top: 360px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
       z-index: -1;
 }
 
