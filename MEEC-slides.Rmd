@@ -641,9 +641,13 @@ _Wood evolved because plants need it to survive in their environment._
 Here, schemas are working against us!]]]
 
 ---
-class: middle, left, bg_2birds
+class: top, left, bg_2birds
 
 ## Using schemas to our advantage
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 
 --
 
@@ -663,19 +667,29 @@ coin.flip <- function(n){
 ```
 
 ---
-class: middle, left, bg_2birds
+class: top, left, bg_2birds
 
 ## Using schemas to our advantage
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 
 
 ```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
-coin.flip(n = 6)
+coin.flip(n = 8)
 ```
 
 ---
-class: middle, left, bg_2birds
+class: top, left, bg_2birds
 
 ## Using schemas to our advantage
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 
 
 ```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
@@ -683,9 +697,14 @@ coin.flip(n = 150)
 ```
 
 ---
-class: middle, left, bg_2birds
+class: top, left, bg_2birds
 
 ## Using schemas to our advantage
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
 
 
 ```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
