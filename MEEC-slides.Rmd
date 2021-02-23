@@ -1,0 +1,694 @@
+---
+title: "The Four Causes of Adaptation"
+subtitle: "How do students construct biological explanations?"
+author: "Lucy E Delaney"
+institute: "University of Illinois at Chicago"
+date: "`r Sys.Date()`"
+event: "MEEC, 2021"
+output:
+  xaringan::moon_reader:
+    seal: false
+    css:
+      - css/manual-fonts.css
+      - css/mytheme.css
+    includes:
+      after_body: css/insert-logo.html
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: right, middle, bg_cherry
+# The Four Causes of `r htmltools::withTags(br())` Adaptation
+
+`r htmltools::withTags(br())`
+
+.pull-right[
+.border[
+We do not have knowledge of a thing until we have grasped its `r htmltools::withTags(b("why"))`, that is to say, its `r htmltools::withTags(b("cause"))`.]
+
+Aristotle, `r htmltools::withTags(br())` _Physics: Book II_]
+
+.pull-bottom[`r rmarkdown::metadata$author` · `r rmarkdown::metadata$event`]
+
+???
+hi there, i'm so glad to be here. today i'm going to talk to you about a project that i started in the Fall, examining how students think about complex questions regarding natural selection & adaptation.
+
+---
+class: left, middle, bg_munich
+
+.pull-left[## Lucy Delaney 
+
+`r htmltools::withTags(img(style = "border-radius: 50%;", src = "https://ledelaney.org/talks/sabertalk/css/images/Delaney-Headshot-Original.jpg", width = "170px"))`
+
+[`r fontawesome::fa("envelope")` ldelan5@uic.edu](mailto:ldelan5@uic.edu)  
+[`r fontawesome::fa("twitter")` @emergentlyLucy](https://twitter.com/emergentlyLucy)  
+[`r fontawesome::fa("github")` @ledelaney](https:://github.com/ledelaney)]
+
+--
+
+.pull-right[## About me
+
+`r emo::ji("mortar_board")` .medium-font[PhD candidate in Evolutionary Biology]
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r emo::ji("hibiscus")` .medium-font[Studying plant sex macroevolution]
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r emo::ji("hatching_chick")` .medium-font[Became interested in better biology education]]
+
+--
+
+.pull-bottom[
+Link to all slide materials: https://github.com/ledelaney/03-21-MEEC]
+
+--
+
+???
+my name is lucy, i'm a phd candidate in evolutionary biology. most of my thesis concerns plant sex macroevolution, but toward the end of my thesis i became interested in better biology education
+
+---
+class: left, bg_totoro
+
+???
+i don't think it would be controversial to say that biology education is important: can foster care&appreciation for the natural world, help to create empathetic&engaged citizens that value and understand how we are all connected, and bolster scientific&computational literacy... BUT...
+
+--
+
+
+## Biology education has a problem
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+.footnote[
+Momsen _et al._, 2010]
+
+--
+
+`r htmltools::HTML('<i class="far fa-tired"></i>')`
+`r htmltools::HTML("&nbsp;")`
+Biology is `r htmltools::HTML("&ldquo;")`just memorization!`r htmltools::HTML("&rdquo;")`
+
+`r htmltools::withTags(br())`
+
+.footnote[
+Momsen _et al._, 2010]
+
+???
+within classes: often taught as a series of facts or examples, devoid of connection
+
+--
+
+`r htmltools::HTML('<i class="far fa-grin-stars"></i>')`
+`r htmltools::HTML("&nbsp;")`
+Formal instruction is not always leading to robust conceptual understanding
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+.footnote[
+Momsen _et al._, 2010; Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
+
+
+???
+briefly explain what we mean by conceptual understanding.... 
+between classes: biology education is fractured, teaching each course sioled as if its a discipline all its own
+why do these things matter?
+well...
+
+---
+class: middle, center, bg_gorg
+
+--
+
+.mezzo-forte-font[
+M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+---
+class: middle, center, bg_gorg
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+--
+
+.mezzo-forte-font[
+M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+---
+class: middle, center, bg_gorg
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+--
+.mezzo-forte-font[
+MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+---
+class: middle, center, bg_gorg
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+--
+
+.mezzo-forte-font[
+MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+--
+
+.pull-bottom[
+.large-font[
+.blue[Remembering concepts is far easier than remembering raw data!]]]
+
+.footnote[
+Heath `r htmltools::withTags("&amp;")` Heath, 2007]
+
+???
+spend 10-15 seconds studying, try to memorize as many as possible..
+
+ok now try...
+
+---
+class: middle, center, bg_sakcherry
+
+`r htmltools::withTags(br())`
+
+## Evolutionary theory is the concept behind the raw data
+
+--
+
+.large-font[
+🦠 🌾 🐡 🪲 🦧]
+
+???
+Its the framework and narrative for the entire discipline.
+But, ususally save it for its own class or half of an e+e class
+Is it surprising that students have such a hard time integrating all this raw data to form a robust conceptual framework in biology?
+
+Like teaching literature by having a class on letters, a class on words, a class on book binding, a class on sentences... and saving reading books for an elective class at the end of study.
+
+---
+class: middle, bg_mountain1
+
+???
+BUT if we want to get to the summit that is understanding evolution there's a long path to traverse...
+
+---
+class: middle, bg_mountain2
+
+???
+first, we all need to speak the same words...
+
+---
+class: middle, bg_mountain3
+
+???
+then we need to use those words to understand basic individual-level biological processes like DNA replication... 
+
+---
+class: middle, bg_mountain4
+
+???
+now we can begin to talk about the environment and ecology...
+
+---
+class: middle, bg_mountain5
+
+???
+then, we must start thinking about randomness, probability, and timescale: what processes may yield over millions of years...
+
+---
+class: middle, bg_mountain6
+
+???
+now we are about ready to bring in evolutionary mechanisms, which conceptually bring their own challenges...
+
+---
+class: middle, bg_mountain7
+
+???
+we must learn to distinguish the pattern from the process that generates it...
+
+---
+class: middle, bg_mountain8
+
+???
+and finally, we must distinguish levels of causality, functional and evolutionary (not mentioning correlation/causation, another talk)
+given these two final stages, i set out to answer some questions
+
+---
+class: middle, left, bg_peacock
+
+--
+`r htmltools::HTML('<i class="fas fa-tools"></i>')` 
+`r htmltools::HTML("&nbsp;")`
+How do students construct biological explanations about complex phenomena?  
+
+
+--
+`r htmltools::HTML('<i class="fas fa-chart-line"></i>')`
+`r htmltools::HTML("&nbsp;")`
+Does instruction improve outcomes?
+ 
+
+???
+chose natural selection and adaptation as a pattern/process based concept that students are generally familiar with: also, very powerful aspect of understanding evolution generally as evidenced by darwin coming up with his theory without understanding mechanisms of inheritance, pop gen, etc.
+
+---
+class: middle, bg_butterfly
+
+## Study design
+
+--
+
+`r emo::ji("raised_hand_with_fingers_splayed")` open-ended questions
+ 
+--
+ 
+`r emo::ji("v")` weeks to answer
+  
+--
+
+`r emo::ji("point_up")` at the beginning of the semester,  `r emo::ji("point_up")` at the end
+  
+???
+first: four classes from 100- to 400-level
+gave two weeks to answer five open-ended questions for homework, allowed to use resources and cite
+completed once in the first two weeks of classes and once in the last
+coded responses based on the following framework...
+
+---
+class: middle, left, bg_jelly
+
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+.opaque[
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?]
+
+`r htmltools::withTags(br())`
+
+--
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (individual)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Material:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Mover:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
+ tr(th("ULTIMATE (species)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Form:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
+
+???
+slightly tweaked a framework originally created by Niko Tinbergen that is most commonly used to examine behavioral adaptations
+
+here is an example of one of the assignment questions: Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+---
+class: middle, left, bg_jelly
+
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+`r htmltools::withTags(br())`
+
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (individual)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Material:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Mover:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
+ tr(th("ULTIMATE (species)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Form:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
+
+
+---
+class: middle, left, bg_jelly
+
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (individual)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Mover:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
+ tr(th("ULTIMATE (species)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Form:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
+
+???
+let's talk through the proximate/functional (or individual-level) row first:
+-material cause addresses proximate-pattern: all organisms have different DNA, constructed differently
+
+---
+class: middle, left, bg_jelly
+
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (individual)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Mover:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
+ tr(th("ULTIMATE (species)"),
+   td(htmltools::withTags(span(style = "opacity: 0", br(), b("Form:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
+
+???
+-efficient cause is the proximate-process: DNA mutates, sexual reproduction/recombination
+
+---
+class: middle, left, bg_jelly
+
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (individual)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Mover:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
+ tr(th("ULTIMATE (species)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Form:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 0", br(), b("Formal:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
+
+???
+now the ultimate/evolutionary (or species-level) row:
+-final cause ultimate-pattern (dangerously teleological, but that's a discussion for another time): all organisms take advantage of the environment in different ways
+
+---
+class: middle, left, bg_jelly
+
+## Tinbergen`r htmltools::HTML("&rsquo;")`s Four Questions
+
+Instead of having one species perfectly adapted to life on earth, there are millions of different species. Why is this the case?
+
+`r htmltools::withTags(br())`
+
+```{r, echo=FALSE, message = FALSE, warning = FALSE, eval = TRUE} 
+
+htmltools::withTags(table(
+ tr(th(htmltools::HTML("&nbsp;")),
+   th("PATTERN (static)"),
+   th("PROCESS (dynamic)")),
+ tr(th("PROXIMATE (individual)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Material:"), br(), br(), "Organisms are constructed differently, have different DNA", br(), br()))),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Mover:"), br(), br(), "DNA mutates, many organisms sexually reproduce, recombination", br(), br())))),
+ tr(th("ULTIMATE (species)"),
+   td(htmltools::withTags(span(style = "opacity: 1", br(), b("Form:"), br(), br(), "Organisms take advantage of the environment in different ways", br(), br()))), 
+ td(htmltools::withTags(span(style = "opacity: 1", br(), b("Formal:"), br(), br(), "Environmental heterogeneity and biological tradeoffs plus large timescales", br(), br()))))))
+
+```
+
+.footnote[
+.small-font[Aristotle; Tinbergen, 1963; Nesse, 2013]]
+
+???
+-formal cause ultimate-process (THE ANSWER WE WANT!): environmental heterogeneity + biological tradeoffs over large timescales
+
+and what we were looking for in the students' responses is the FORMAL cause -- the ultimate process responsible, the full evolutionary history of the trait and organism
+
+coded responses based on what level of explanation the student addressed in response (sometimes more than one)
+
+---
+class: middle, left
+
+## What happened?
+
+--
+
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "800px"))`
+
+???
+Answers a mess: formal instruction is not helping!
+Very few students getting formal cause: some even move away from formal after instruction!
+Often pairing proximate processes with ultimate patterns
+
+Talk about how research shows that we spend way too much time on proximate in classes, so this makes perfect sense.. and then in evolution classes we spend way too much time using EXAMPLES highlighting ultimate pattern
+
+---
+class: middle, left
+
+## What happened?
+
+.pull-left[
+`r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-empty.png", width = "450px"))`]
+
+.pull-right-low[
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+
+---
+class: middle, left
+
+## What happened?
+
+.pull-left[
+`r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-r1.png", width = "450px"))`]
+
+.pull-right-low[
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+
+---
+class: middle, left
+
+## What happened?
+
+.pull-left[
+`r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-r1-arrows.png", width = "450px"))`]
+
+.pull-right-low[
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+
+---
+class: middle, left
+
+## What happened?
+
+.pull-left[
+`r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-final.png", width = "450px"))`]
+
+.pull-right-low[
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+## How are students constructing explanations?
+
+
+???
+Tend to use a familiar schema to reason about answers
+explain schemas
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of analogy to humans (anthropocentric):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+--
+
+
+_There are so many different species of flowering plants because flowers are found all over the world just like humans, and they look different just like humans do._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of analogy to humans (anthropocentric):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+_Cave fish lose their eyesight because if you don`r htmltools::HTML("&rsquo;")`t use something the body will not maintain it, like if you stop exercising you lose your muscles._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of justifying the outcome (teleological):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+--
+
+`r htmltools::withTags(br())`
+
+_There are so many different species on earth because if there were only one it would go extinct._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+---
+class: top, left, bg_chaet
+
+`r htmltools::withTags(br())`
+
+### Reasoning by way of justifying the outcome (teleological):
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+_Wood evolved because plants need it to survive in their environment._
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+--
+
+.pull-right[
+.large-font[
+.pink[
+Here, schemas are working against us!]]]
+
+---
+class: top, left, bg_2birds
+
+## Using schemas to our advantage
+
+---
+class: top, center, bg_gurnard
+
+## Toward better biology education
+
+--
+
+.large-font[
+`r htmltools::HTML('<i class="fas fa-map-marked-alt"></i>')`] 
+
+.left-align[
+Always bring facts and examples back to the bigger picture]
+
+???
+ and help students form connections
+
+---
+class: top, center, bg_gurnard
+
+## Toward better biology education
+
+.large-font[
+`r htmltools::HTML('<i class="fas fa-map-marked-alt"></i>')`
+`r htmltools::HTML("&nbsp;")`
+`r htmltools::HTML('<i class="fas fa-code"></i>')`] 
+
+.left-align[
+Always bring facts and examples back to the bigger picture
+
+Deal in concepts not in raw data]
+
+---
+class: top, center, bg_gurnard
+
+## Toward better biology education
+
+.large-font[
+`r htmltools::HTML('<i class="fas fa-map-marked-alt"></i>')`
+`r htmltools::HTML("&nbsp;")`
+`r htmltools::HTML('<i class="fas fa-code"></i>')`
+`r htmltools::HTML("&nbsp;")`
+`r htmltools::HTML('<i class="fas fa-icons"></i>')`] 
+
+.left-align[
+Always bring facts and examples back to the bigger picture
+
+Deal in concepts not in raw data
+
+Use existing schemas to engage and challenge student thinking]
+
+--
+.bottom[
+.large-font[
+.pink[Thank you!]]]

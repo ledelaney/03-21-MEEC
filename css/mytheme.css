@@ -71,6 +71,15 @@ line-height: normal;
 
 .pull-right-wide + * { clear: both; }
 
+.pull-right-low {
+  float: right;
+  width: 48%;
+  top: 200px
+}
+
+.pull-right-low + * { clear: both; }
+
+
 
 
 /*-- BACKGROUNDS AND OPACITY --*/
@@ -702,5 +711,6 @@ blockquote {
 .red        { color:   #DA291C }
 .warmyellow { color:   #FFB81C }
 .gold       { color:   #b0a402;}
+.opaque		{ opacity: 0}
 
 
