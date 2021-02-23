@@ -58,6 +58,11 @@ line-height: normal;
 	text-align: left;
 }
 
+.right-align{
+	margin: auto;
+	text-align: right;
+}
+
 
 .pull-left-narrow {
   float: left;
@@ -72,9 +77,9 @@ line-height: normal;
 .pull-right-wide + * { clear: both; }
 
 .pull-right-low {
-  float: right;
-  width: 48%;
-  top: 200px
+  position: relative;
+  top: 100px;
+  left: 70px;
 }
 
 .pull-right-low + * { clear: both; }

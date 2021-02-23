@@ -56,7 +56,7 @@ class: left, middle, bg_munich
 `r emo::ji("hibiscus")` .medium-font[Studying plant sex macroevolution]
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
-`r emo::ji("hatching_chick")` .medium-font[Became interested in better biology education]]
+`r emo::ji("hatching_chick")` .medium-font[Interested in better biology education]]
 
 --
 
@@ -511,7 +511,7 @@ class: middle, left
 `r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-empty.png", width = "450px"))`]
 
 .pull-right-low[
-`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "390px"))`]
 
 ---
 class: middle, left
@@ -522,7 +522,7 @@ class: middle, left
 `r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-r1.png", width = "450px"))`]
 
 .pull-right-low[
-`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "390px"))`]
 
 ---
 class: middle, left
@@ -533,7 +533,7 @@ class: middle, left
 `r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-r1-arrows.png", width = "450px"))`]
 
 .pull-right-low[
-`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "390px"))`]
 
 ---
 class: middle, left
@@ -544,7 +544,7 @@ class: middle, left
 `r htmltools::withTags(img(src = "css/images/figs/pre-post-causes-final.png", width = "450px"))`]
 
 .pull-right-low[
-`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "300px"))`]
+`r htmltools::withTags(img(src = "css/images/figs/cause-venn-diagram.png", width = "390px"))`]
 
 
 ---
@@ -553,6 +553,13 @@ class: top, left, bg_chaet
 `r htmltools::withTags(br())`
 
 ## How are students constructing explanations?
+
+--
+
+.pull-right[
+.large-font[
+.pink[
+Schemas!]]]
 
 
 ???
@@ -634,9 +641,56 @@ _Wood evolved because plants need it to survive in their environment._
 Here, schemas are working against us!]]]
 
 ---
-class: top, left, bg_2birds
+class: middle, left, bg_2birds
 
 ## Using schemas to our advantage
+
+--
+
+```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
+
+coin.flip <- function(n){
+   
+   flips <- rbinom(n = n, size = 1, prob = 0.5)
+   
+   outcome <- ifelse(flips == 1, yes = "Heads", no = "Tails")
+   
+   table <- table(outcome) / n
+   
+   return(table)
+   
+}
+```
+
+---
+class: middle, left, bg_2birds
+
+## Using schemas to our advantage
+
+
+```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
+coin.flip(n = 6)
+```
+
+---
+class: middle, left, bg_2birds
+
+## Using schemas to our advantage
+
+
+```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
+coin.flip(n = 150)
+```
+
+---
+class: middle, left, bg_2birds
+
+## Using schemas to our advantage
+
+
+```{r, echo=TRUE, warning=FALSE, error=FALSE, eval=TRUE}
+coin.flip(n = 10000)
+```
 
 ---
 class: top, center, bg_gurnard

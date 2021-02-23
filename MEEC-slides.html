@@ -51,7 +51,7 @@ class: left, middle, bg_munich
 🌺 .medium-font[Studying plant sex macroevolution]
 <br/>
 <br/>
-🐣 .medium-font[Became interested in better biology education]]
+🐣 .medium-font[Interested in better biology education]]
 
 --
 
@@ -764,7 +764,7 @@ class: middle, left
 <img src="css/images/figs/pre-post-causes-empty.png" width="450px"/>]
 
 .pull-right-low[
-<img src="css/images/figs/cause-venn-diagram.png" width="300px"/>]
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
 
 ---
 class: middle, left
@@ -775,7 +775,7 @@ class: middle, left
 <img src="css/images/figs/pre-post-causes-r1.png" width="450px"/>]
 
 .pull-right-low[
-<img src="css/images/figs/cause-venn-diagram.png" width="300px"/>]
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
 
 ---
 class: middle, left
@@ -786,7 +786,7 @@ class: middle, left
 <img src="css/images/figs/pre-post-causes-r1-arrows.png" width="450px"/>]
 
 .pull-right-low[
-<img src="css/images/figs/cause-venn-diagram.png" width="300px"/>]
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
 
 ---
 class: middle, left
@@ -797,7 +797,7 @@ class: middle, left
 <img src="css/images/figs/pre-post-causes-final.png" width="450px"/>]
 
 .pull-right-low[
-<img src="css/images/figs/cause-venn-diagram.png" width="300px"/>]
+<img src="css/images/figs/cause-venn-diagram.png" width="390px"/>]
 
 
 ---
@@ -806,6 +806,13 @@ class: top, left, bg_chaet
 <br/>
 
 ## How are students constructing explanations?
+
+--
+
+.pull-right[
+.large-font[
+.pink[
+Schemas!]]]
 
 
 ???
@@ -887,9 +894,77 @@ _Wood evolved because plants need it to survive in their environment._
 Here, schemas are working against us!]]]
 
 ---
-class: top, left, bg_2birds
+class: middle, left, bg_2birds
 
 ## Using schemas to our advantage
+
+--
+
+
+```r
+coin.flip &lt;- function(n){
+   
+   flips &lt;- rbinom(n = n, size = 1, prob = 0.5)
+   
+   outcome &lt;- ifelse(flips == 1, yes = "Heads", no = "Tails")
+   
+   table &lt;- table(outcome) / n
+   
+   return(table)
+   
+}
+```
+
+---
+class: middle, left, bg_2birds
+
+## Using schemas to our advantage
+
+
+
+```r
+coin.flip(n = 6)
+```
+
+```
+## outcome
+## Heads Tails 
+##   0.5   0.5
+```
+
+---
+class: middle, left, bg_2birds
+
+## Using schemas to our advantage
+
+
+
+```r
+coin.flip(n = 150)
+```
+
+```
+## outcome
+##     Heads     Tails 
+## 0.5333333 0.4666667
+```
+
+---
+class: middle, left, bg_2birds
+
+## Using schemas to our advantage
+
+
+
+```r
+coin.flip(n = 10000)
+```
+
+```
+## outcome
+##  Heads  Tails 
+## 0.5044 0.4956
+```
 
 ---
 class: top, center, bg_gurnard
