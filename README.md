@@ -1,6 +1,6 @@
 ## Resources for MEEC 2021 Talk
 
-+ [Link to full slide deck (_pending_)]()
++ [Link to full slide deck](https://ledelaney.org/talks/meectalk/MEEC-slides.html)
 + See above `references.pdf` for slide citations and more reading on various topics (_pending_)
 
 ### Images
