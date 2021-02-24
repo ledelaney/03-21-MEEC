@@ -109,6 +109,15 @@ class: middle, center, bg_gorg
 .mezzo-forte-font[
 M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltools::HTML("&nbsp;")` ADN `r htmltools::HTML("&nbsp;")` ANC `r htmltools::HTML("&nbsp;")` AA `r htmltools::HTML("&nbsp;")` AC `r htmltools::HTML("&nbsp;")` LUM `r htmltools::HTML("&nbsp;")` K]
 
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+Countdown:
+
+`r htmltools::HTML('<span id="demo">10 </span> Seconds')`
+`r htmltools::HTML('<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>')`
+
+
 .footnote[
 Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 
@@ -135,6 +144,15 @@ Heath `r htmltools::withTags("&amp;")` Heath, 2007]
 --
 .mezzo-forte-font[
 MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htmltools::HTML("&nbsp;")` NCAA `r htmltools::HTML("&nbsp;")` ACLU `r htmltools::HTML("&nbsp;")` MLK]
+
+`r htmltools::withTags(br())`
+`r htmltools::withTags(br())`
+
+Countdown:
+
+`r htmltools::HTML('<span id="demo">10 </span> Seconds')`
+`r htmltools::HTML('<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>')`
+
 
 .footnote[
 Heath `r htmltools::withTags("&amp;")` Heath, 2007]

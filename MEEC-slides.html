@@ -4,7 +4,7 @@
     <title>The Four Causes of Adaptation</title>
     <meta charset="utf-8" />
     <meta name="author" content="Lucy E Delaney" />
-    <meta name="date" content="2021-02-23" />
+    <meta name="date" content="2021-02-24" />
     <script src="libs/header-attrs-2.5/header-attrs.js"></script>
     <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
     <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
@@ -104,6 +104,15 @@ class: middle, center, bg_gorg
 .mezzo-forte-font[
 M &nbsp; EECN &nbsp; AS &nbsp; ADN &nbsp; ANC &nbsp; AA &nbsp; AC &nbsp; LUM &nbsp; K]
 
+<br/>
+<br/>
+
+Countdown:
+
+<span id="demo">10 </span> Seconds
+<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>
+
+
 .footnote[
 Heath &amp;amp; Heath, 2007]
 
@@ -130,6 +139,15 @@ Heath &amp;amp; Heath, 2007]
 --
 .mezzo-forte-font[
 MEEC &nbsp; NASA &nbsp; DNA &nbsp; NCAA &nbsp; ACLU &nbsp; MLK]
+
+<br/>
+<br/>
+
+Countdown:
+
+<span id="demo">10 </span> Seconds
+<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>
+
 
 .footnote[
 Heath &amp;amp; Heath, 2007]
@@ -840,7 +858,7 @@ coin.flip(n = 8)
 ```
 ## outcome
 ## Heads Tails 
-## 0.375 0.625
+## 0.625 0.375
 ```
 
 ---
@@ -862,7 +880,7 @@ coin.flip(n = 150)
 ```
 ## outcome
 ##     Heads     Tails 
-## 0.4666667 0.5333333
+## 0.5133333 0.4866667
 ```
 
 ---
@@ -884,7 +902,7 @@ coin.flip(n = 10000)
 ```
 ## outcome
 ##  Heads  Tails 
-## 0.5074 0.4926
+## 0.4919 0.5081
 ```
 
 ---
@@ -1058,6 +1076,32 @@ document
 </script>
 
 <script src="https://kit.fontawesome.com/d350c46f41.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+   
+var myTimerObj = (function(document){
+   
+   var myTimer;
+
+   function start() {
+     myTimer = setInterval(myClock, 1000);
+     var c = 10;
+
+     function myClock() {
+       document.getElementById("demo").innerHTML = --c;
+       if (c == 0) {
+         clearInterval(myTimer);
+       }
+     }
+   }
+   
+   function end() {
+       clearInterval(myTimer)
+   }
+
+   return {start:start, end:end};
+ })(document);
+</script>
 
 <script>
 slideshow._releaseMath = function(el) {
