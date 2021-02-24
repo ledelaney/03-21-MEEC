@@ -114,9 +114,8 @@ M `r htmltools::HTML("&nbsp;")` EECN `r htmltools::HTML("&nbsp;")` AS `r htmltoo
 
 Countdown:
 
-`r htmltools::HTML('<span id="demo">10 </span> Seconds')`
-`r htmltools::HTML('<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>')`
-
+`r htmltools::HTML('<span id="demo1">10 </span> Seconds')`
+`r htmltools::HTML('<button type="button" class="btn btn-outline-info" onclick="myTimerObj1.start()">Start counter</button>')`
 
 .footnote[
 Heath `r htmltools::withTags("&amp;")` Heath, 2007]
@@ -150,8 +149,8 @@ MEEC `r htmltools::HTML("&nbsp;")` NASA `r htmltools::HTML("&nbsp;")` DNA `r htm
 
 Countdown:
 
-`r htmltools::HTML('<span id="demo">10 </span> Seconds')`
-`r htmltools::HTML('<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>')`
+`r htmltools::HTML('<span id="demo2">10 </span> Seconds')`
+`r htmltools::HTML('<button type="button" class="btn btn-outline-info" onclick="myTimerObj2.start()">Start counter</button>')`
 
 
 .footnote[

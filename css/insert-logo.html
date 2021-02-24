@@ -30,25 +30,50 @@ document
 <script src="https://kit.fontawesome.com/d350c46f41.js" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
+var myTimerObj1 = (function(document){
    
-var myTimerObj = (function(document){
-   
-   var myTimer;
+   var myTimer1;
 
    function start() {
-     myTimer = setInterval(myClock, 1000);
+     myTimer1 = setInterval(myClock, 1000);
      var c = 10;
 
      function myClock() {
-       document.getElementById("demo").innerHTML = --c;
+       document.getElementById("demo1").innerHTML = --c;
        if (c == 0) {
-         clearInterval(myTimer);
+         clearInterval(myTimer1);
        }
      }
    }
    
    function end() {
-       clearInterval(myTimer)
+       clearInterval(myTimer1)
+   }
+
+   return {start:start, end:end};
+ })(document);
+</script>
+
+
+<script type="text/javascript">
+ var myTimerObj2 = (function(document){
+   
+   var myTimer2;
+
+   function start() {
+     myTimer2 = setInterval(myClock, 1000);
+     var c = 10;
+
+     function myClock() {
+       document.getElementById("demo2").innerHTML = --c;
+       if (c == 0) {
+         clearInterval(myTimer2);
+       }
+     }
+   }
+   
+   function end() {
+       clearInterval(myTimer2)
    }
 
    return {start:start, end:end};

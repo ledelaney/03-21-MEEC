@@ -109,9 +109,8 @@ M &nbsp; EECN &nbsp; AS &nbsp; ADN &nbsp; ANC &nbsp; AA &nbsp; AC &nbsp; LUM &nb
 
 Countdown:
 
-<span id="demo">10 </span> Seconds
-<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>
-
+<span id="demo1">10 </span> Seconds
+<button type="button" class="btn btn-outline-info" onclick="myTimerObj1.start()">Start counter</button>
 
 .footnote[
 Heath &amp;amp; Heath, 2007]
@@ -145,8 +144,8 @@ MEEC &nbsp; NASA &nbsp; DNA &nbsp; NCAA &nbsp; ACLU &nbsp; MLK]
 
 Countdown:
 
-<span id="demo">10 </span> Seconds
-<button type="button" class="btn btn-outline-info" onclick="myTimerObj.start()">Start counter</button>
+<span id="demo2">10 </span> Seconds
+<button type="button" class="btn btn-outline-info" onclick="myTimerObj2.start()">Start counter</button>
 
 
 .footnote[
@@ -858,7 +857,7 @@ coin.flip(n = 8)
 ```
 ## outcome
 ## Heads Tails 
-## 0.625 0.375
+## 0.375 0.625
 ```
 
 ---
@@ -880,7 +879,7 @@ coin.flip(n = 150)
 ```
 ## outcome
 ##     Heads     Tails 
-## 0.5133333 0.4866667
+## 0.5066667 0.4933333
 ```
 
 ---
@@ -902,7 +901,7 @@ coin.flip(n = 10000)
 ```
 ## outcome
 ##  Heads  Tails 
-## 0.4919 0.5081
+## 0.5029 0.4971
 ```
 
 ---
@@ -1078,25 +1077,50 @@ document
 <script src="https://kit.fontawesome.com/d350c46f41.js" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
+var myTimerObj1 = (function(document){
    
-var myTimerObj = (function(document){
-   
-   var myTimer;
+   var myTimer1;
 
    function start() {
-     myTimer = setInterval(myClock, 1000);
+     myTimer1 = setInterval(myClock, 1000);
      var c = 10;
 
      function myClock() {
-       document.getElementById("demo").innerHTML = --c;
+       document.getElementById("demo1").innerHTML = --c;
        if (c == 0) {
-         clearInterval(myTimer);
+         clearInterval(myTimer1);
        }
      }
    }
    
    function end() {
-       clearInterval(myTimer)
+       clearInterval(myTimer1)
+   }
+
+   return {start:start, end:end};
+ })(document);
+</script>
+
+
+<script type="text/javascript">
+ var myTimerObj2 = (function(document){
+   
+   var myTimer2;
+
+   function start() {
+     myTimer2 = setInterval(myClock, 1000);
+     var c = 10;
+
+     function myClock() {
+       document.getElementById("demo2").innerHTML = --c;
+       if (c == 0) {
+         clearInterval(myTimer2);
+       }
+     }
+   }
+   
+   function end() {
+       clearInterval(myTimer2)
    }
 
    return {start:start, end:end};
