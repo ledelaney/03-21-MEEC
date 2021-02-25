@@ -21,6 +21,10 @@
 
 }
 
+.italic{
+	font-style: italic;
+}
+
 /*-- Spacing --*/
 .pull-left {
   float: left;

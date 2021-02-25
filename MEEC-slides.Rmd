@@ -513,7 +513,6 @@ class: top, left, bg_chaet
 ### Reasoning by way of analogy to humans (anthropocentric):
 
 `r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
 
 .footnote[
 Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
@@ -536,7 +535,6 @@ class: top, left, bg_chaet
 ### Reasoning by way of analogy to humans (anthropocentric):
 
 `r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
 
 _Cave fish lose their eyesight because if you don`r htmltools::HTML("&rsquo;")`t use something the body will not maintain it, like if you stop exercising you lose your muscles._
 
@@ -555,15 +553,13 @@ class: top, left, bg_chaet
 ### Reasoning by way of justifying the outcome (teleological):
 
 `r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
 
 .footnote[
 Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
 --
 
-`r htmltools::withTags(br())`
-
-_There are so many different species on earth because if there were only one it would go extinct._
+.italic[
+There are so many different species on earth because if there were only one it would go extinct.]
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
@@ -578,8 +574,6 @@ class: top, left, bg_chaet
 
 ### Reasoning by way of justifying the outcome (teleological):
 
-`r htmltools::withTags(br())`
-`r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 
 _Wood evolved because plants need it to survive in their environment._
