@@ -186,11 +186,17 @@ class: middle, center, bg_sakcherry
 
 ## Evolutionary theory is the concept behind the raw data
 
+.footnote[
+Dobzhansky, 1973]
+
 --
 
 .large-font[
 🦠 🌾 🐡 🪲 🦧]
 
+
+.footnote[
+Dobzhansky, 1973]
 ---
 class: middle, bg_mountain1
 
@@ -206,14 +212,26 @@ class: middle, bg_mountain4
 ---
 class: middle, bg_mountain5
 
+.footnote[
+Göransson _et al._, 2020]
+
 ---
 class: middle, bg_mountain6
+
+.footnote[
+Göransson _et al._, 2020]
 
 ---
 class: middle, bg_mountain7
 
+.footnote[
+Göransson _et al._, 2020; Southerland _et al._, 2001]
+
 ---
 class: middle, bg_mountain8
+
+.footnote[
+Göransson _et al._, 2020; Southerland _et al._, 2001; Mayr, 1961]
 
 ---
 class: middle, left, bg_peacock
@@ -480,11 +498,13 @@ class: top, left, bg_chaet
 
 --
 
-.pull-right[
+.right-align[
 .large-font[
 .pink[
 Schemas!]]]
 
+.footnote[
+Schank `r htmltools::withTags("&amp;")` Abelson, 1977; Chi _et al._, 2012]
 ---
 class: top, left, bg_chaet
 
@@ -495,6 +515,8 @@ class: top, left, bg_chaet
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 
+.footnote[
+Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
 --
 
 
@@ -502,6 +524,9 @@ _There are so many different species of flowering plants because flowers are fou
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
+
+.footnote[
+Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
 
 ---
 class: top, left, bg_chaet
@@ -518,6 +543,10 @@ _Cave fish lose their eyesight because if you don`r htmltools::HTML("&rsquo;")`t
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 
+
+.footnote[
+Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
+
 ---
 class: top, left, bg_chaet
 
@@ -527,6 +556,9 @@ class: top, left, bg_chaet
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
+
+.footnote[
+Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
 --
 
 `r htmltools::withTags(br())`
@@ -535,6 +567,9 @@ _There are so many different species on earth because if there were only one it 
 
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
+
+.footnote[
+Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
 
 ---
 class: top, left, bg_chaet
@@ -552,6 +587,9 @@ _Wood evolved because plants need it to survive in their environment._
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 
+.footnote[
+Coley `r htmltools::withTags("&amp;")` Tanner, 2015]
+
 --
 
 .pull-right[
@@ -567,6 +605,9 @@ class: top, left, bg_2birds
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
 `r htmltools::withTags(br())`
+
+.footnote[
+Jolfaee _et al._, 2014]
 
 --
 
@@ -584,6 +625,10 @@ coin.flip <- function(n){
    
 }
 ```
+
+
+.footnote[
+Jolfaee _et al._, 2014]
 
 ---
 class: top, left, bg_2birds
