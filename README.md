@@ -1,7 +1,19 @@
-## Resources for MEEC 2021 Talk
+# Midwest Ecology and Evolution Conference, 2021
 
 + [Link to full slide deck](https://ledelaney.org/talks/meectalk/MEEC-slides.html)
 + See above `references.pdf` for slide citations, inspirations, and more reading on various topics
+
+## Abstract
+
+How humans influence the Earth, our inherent dependence on it, our relationship to each other, and our connection to all life -- no discipline meaningfully illuminates such concepts as biology does. Biology unveils the substance that serves as the blueprint for our own construction, but also demonstrates how that substance is life's very deepest homology. That is to say, biology can offer explanation at multiple levels: first by establishing patterns and investigating their creative processes, and then by providing proximate and ultimate causes for observed patterns and processes. This dual causality -- the proximate functional 'how' and the ultimate evolutionary 'why' -- is both particular and of particular importance to biological sciences; the 'why' being the stuff that gives the 'how' consequence. 
+
+Hundreds of studies illustrate that students maintain tenacious misconceptions regarding the evolutionary principles necessary for recognizing levels of biological explanation. To dissect these misconceptions, I administered a pre-post assignment with open-ended reflective questions to explore (1) how students construct explanations about natural selection and adaptation across several levels of postsecondary study, and (2) the extent to which their explanations change as they continue formal biology instruction. My framework, adapted from Tinbergen's Four Questions, categorizes students' answers based on the level of explanation addressed. Here I discuss preliminary data from one semester and the implications of my findings for both teaching and biology education generally: namely, that students need more than facts and examples to form a robust conceptual framework in biology.
+
+## Resources
+
+### `xaringan`
+
+Slides created in R Studio using the `xaringan` package. [More details on this package are available here.](https://bookdown.org/yihui/rmarkdown/xaringan.html)
 
 ### Images
 
