@@ -1,6 +1,6 @@
 # Midwest Ecology and Evolution Conference, 2021
 
-<img src="https://ledelaney.org/talks/meec2021/css/images/03-2021-MEEC-card.png" width="300" height="400" />
+<img src="https://ledelaney.org/talks/meec2021/css/images/03-2021-MEEC-card.png" />
 
 + [Link to full slide deck](https://ledelaney.org/talks/meec2021/)
 + See above `references.pdf` for slide citations, inspirations, and more reading on various topics
