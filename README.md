@@ -1,8 +1,8 @@
 # Midwest Ecology and Evolution Conference, 2021
 
-🏆 Awarded best graduate talk
-
 <img src="https://ledelaney.org/talks/2021meec/css/images/03-2021-MEEC-card.png" />
+
+🏆 Awarded best graduate talk
 
 + [Link to full slide deck](https://ledelaney.org/talks/2021meec/)
 + See above `references.pdf` for slide citations, inspirations, and more reading on various topics
