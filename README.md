@@ -2,10 +2,11 @@
 
 <img src="https://ledelaney.org/talks/2021meec/css/images/03-2021-MEEC-card.png" />
 
-[VIEW RECORDING](https://uofi.box.com/v/2021meec-talk) | 🏆 Awarded Best Graduate Talk
+🏆 Awarded Best Graduate Talk
 
-+ [Link to full slide deck](https://ledelaney.org/talks/2021meec/)
-+ See above `references.pdf` for slide citations, inspirations, and more reading on various topics
+📹 [View Recording](https://uofi.app.box.com/v/2021meec-talk)
+
+🎞️ [Link to full slide deck](https://ledelaney.org/talks/2021meec/)
 
 ## Abstract
 
@@ -14,6 +15,8 @@ How humans influence the Earth, our inherent dependence on it, our relationship 
 Hundreds of studies illustrate that students maintain tenacious misconceptions regarding the evolutionary principles necessary for recognizing levels of biological explanation. To dissect these misconceptions, I administered a pre-post assignment with open-ended reflective questions to explore (1) how students construct explanations about natural selection and adaptation across several levels of postsecondary study, and (2) the extent to which their explanations change as they continue formal biology instruction. My framework, adapted from Tinbergen's Four Questions, categorizes students' answers based on the level of explanation addressed. Here I discuss preliminary data from one semester and the implications of my findings for both teaching and biology education generally: namely, that students need more than facts and examples to form a robust conceptual framework in biology.
 
 ## Resources
+
+See above `references.pdf` for slide citations, inspirations, and more reading on various topics.
 
 ### `xaringan`
 
