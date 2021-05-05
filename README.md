@@ -4,6 +4,8 @@
 
 🏆 Awarded Best Graduate Talk
 
+[VIEW THE TALK](https://uofi.box.com/v/2021meec-talk)
+
 + [Link to full slide deck](https://ledelaney.org/talks/2021meec/)
 + See above `references.pdf` for slide citations, inspirations, and more reading on various topics
 
