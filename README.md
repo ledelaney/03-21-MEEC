@@ -2,7 +2,7 @@
 
 <img src="https://ledelaney.org/talks/2021meec/css/images/03-2021-MEEC-card.png" />
 
-🏆 Awarded Best Graduate Talk | [VIEW RECORDING](https://uofi.box.com/v/2021meec-talk)
+[VIEW RECORDING](https://uofi.box.com/v/2021meec-talk) | 🏆 Awarded Best Graduate Talk
 
 + [Link to full slide deck](https://ledelaney.org/talks/2021meec/)
 + See above `references.pdf` for slide citations, inspirations, and more reading on various topics
