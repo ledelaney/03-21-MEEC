@@ -6,7 +6,7 @@
 
 📹 [View Recording](https://uofi.app.box.com/v/2021meec-talk)
 
-🎞️ [Link to full slide deck](https://ledelaney.org/talks/2021meec/)
+🎞️ [View Slide Deck](https://ledelaney.org/talks/2021meec/)
 
 ## Abstract
 
